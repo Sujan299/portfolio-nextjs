@@ -31,7 +31,7 @@ export default function TopNavbar() {
                 <li className='mb-6 h-6'><a href="/" className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="mdi-light:home" className='inline mr-1' height={24} />Home</a></li>
                 <li className='mb-6'><a href="/" className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="ph:code" className='inline mr-1' height={24} />Code</a></li>
                 <li className='mb-6'><a href="/" className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="gridicons:trending" className='inline mr-1' height={24} />Trendings</a></li>
-                <li className='mb-6'><a href="/mini-porjects" className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="arcticons:zoho-projects" className='inline mr-1' height={24} />Mini-projects</a></li>
+                <li className='mb-6'><a href="/mini-projects" className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="arcticons:zoho-projects" className='inline mr-1' height={24} />Mini-projects</a></li>
             </ul>
             <hr />
             <ul>
