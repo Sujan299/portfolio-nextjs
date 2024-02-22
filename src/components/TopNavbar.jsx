@@ -1,20 +1,17 @@
 "use client";
 import React from 'react'
-// import SideNavbarMobile from './SideNavbarMobile';
 import { Icon } from '@iconify/react';
 import { useState } from 'react'
 
 export default function TopNavbar() {
     const [clickMe, setClickMe] = useState(false);
     function handleClick() {
-        // alert('consoled')
         if (clickMe === false) {
             setClickMe(true)
         } else {
             setClickMe(false)
 
         }
-        // alert('hello');
     }
     return (
         <div className='w-100 bg-slate-800'>
