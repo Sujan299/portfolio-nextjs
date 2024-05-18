@@ -2,33 +2,33 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div>
-            <h2 className='ml-11 mr-11 mb-7 text-2xl'>What I know</h2>
-            <div className='ml-11 mr-11 flex flex-wrap justify-between bg-slate-500 px-6 py-9 rounded-sm mb-8'>
+        <div className=''>
+            <div className='ml-11 mr-11 mb-7 text-2xl text-white text-opacity-100 font-semibold'>What I know</div>
+            <div className='ml-11 mr-11 flex flex-wrap justify-between bg-custom-darkOne px-6 py-9 rounded-sm mb-8 '>
                 <div className="card w-64 rounded-sm mb-8">
-                    <h3>Frontend</h3>
-                    <button  className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>html</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>css</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>Tailwind</button>
-                    <button className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>Javscript</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>React</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>NextJS</button>
+                    <div className=''>Frontend</div>
+                    <button  className='px-3 py-2 mr-1 mt-3 rounded-lg bg-custom-dark'>html</button>
+                    <button className='px-3 py-2 mx-1 mt-3 rounded-lg bg-custom-dark'>css</button>
+                    <button className='px-3 py-2 mx-1 mt-3 rounded-lg bg-custom-dark border border-green-500'>Tailwind</button>
+                    <button className='px-3 py-2 mr-1 mt-3 rounded-lg bg-custom-dark border border-yellow-200'>Javscript</button>
+                    <button className='px-3 py-2 mx-1 mt-3 rounded-lg bg-custom-dark border border-green-500'>React</button>
+                    <button className='px-3 py-2 mx-1 mt-3 rounded-lg bg-custom-dark'>NextJS</button>
                 </div>
                 <div className="card w-64 rounded-sm mb-8">
-                    <h3>Backend</h3>
-                    <button  className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>NodeJS</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>ExpressJS</button>
-                    <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>EJS</button>
+                    <div>Backend</div>
+                    <button  className='px-3 py-2 bg-custom-dark mr-1 mt-3 rounded-lg border border-green-500'>NodeJS</button>
+                    <button className='px-3 py-2 bg-custom-dark mx-1 mt-3 rounded-lg'>ExpressJS</button>
+                    <button className='px-3 py-2 bg-custom-dark mx-1 mt-3 rounded-lg'>EJS</button>
                 </div>
-                <div className="card w-64 rounded-sm mb-8">
-                    <h3>Databases</h3>
+                {/* <div className="card w-64 rounded-sm mb-8">
+                    <div>Databases</div>
                     <button  className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>Mongos</button>
                     <button className='px-3 py-2 bg-slate-800 mx-1 mt-3 rounded-sm'>MySQL</button>
                     <button className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>PostgreSQL</button>
-                </div>
+                </div> */}
                 <div className="card w-64 rounded-sm mb-8">
-                    <h3>Technologies</h3>
-                    <button  className='px-3 py-2 bg-slate-800 mr-1 mt-3 rounded-sm'>Github</button>
+                    <div>Technologies</div>
+                    <button  className='px-3 py-2 mr-1 mt-3 rounded-lg bg-custom-dark'>Github</button>
                 </div>
             </div>
         </div>

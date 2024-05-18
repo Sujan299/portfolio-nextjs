@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'border-black-50': 'rgba(0, 0, 0, 0.5)', // Custom color with 50% opacity
+      },
+      colors: {
+        'custom-dark': '#14131A',
+        'custom-darkOne': '#1C1B23'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
