@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import myImage from '../../public/myImage.png'
-const resumeUrl = "http://localhost:3000/resume/resume.pdf"
+const resumeUrl = "https://portfolio-nextjs-zeta-one.vercel.app/resume/resume.pdf"
 const Introduction = () => {
     const downloadResume = (url)=>{
         const fileName=url.split("/").pop();
